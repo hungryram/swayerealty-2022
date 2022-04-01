@@ -5,16 +5,18 @@
         <div>
             <h2 class="uk-h4 uk-text-bold">Blog Categories</h2>
             <ul uk-accordion>
-                {{ range $name, $taxonomy := $.Site.Taxonomies.categories }}
-                <li class="uk-open">
+                <li>
                     <a class="uk-accordion-title" href="#">View all categories</a>
                     <div class="uk-accordion-content">
-                        <span uk-icon="triangle-right"></span><a href="/categories{{ $name | urlize | relURL }}" class="uk-margin-small-left primary-link">{{ $name | humanize }}</a>
+                        {{ range $name, $taxonomy := $.Site.Taxonomies.categories }}
+                            <div>
+                                <span uk-icon="triangle-right"></span><a href="/categories{{ $name | urlize | relURL }}" class="uk-margin-small-left primary-link">{{ $name | humanize }}</a>
+                            </div>
+                        {{else}}
+                            <p>No blog categories just yet</p>
+                        {{ end }}
                     </div>
                 </li>
-                {{else}}
-                <p>No blog categories just yet</p>
-                {{ end }}
             </ul>
         </div>
         {{ end }}
