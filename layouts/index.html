@@ -148,6 +148,7 @@ f
             <div class="uk-card-media-left uk-cover-container">
               {{ if .Params.featured_image }}
               <img src="{{ .Params.featured_image | absURL }}" alt="{{ .Params.image_alt_tag }}" uk-cover>
+              <canvas height="250"></canvas>
               {{ else }}
               <img src="https://res.cloudinary.com/hungryram19/image/upload/v1645813822/Resources/realestate-assets/no-house-photo.jpg" alt="no photo" uk-cover>
               {{ end }}
@@ -187,7 +188,9 @@ f
                 {{ .body | markdownify }}
               </div>
               {{ if and .button_link .button }}
-              <a href="{{ .button_link | absURL }}" class="uk-button uk-button-primary">{{ .button }}</a>
+              <div class="uk-margin-medium-top">
+                <a href="{{ .button_link | absURL }}" class="uk-button uk-button-primary">{{ .button }}</a>
+              </div>
               {{ end }}
             </div>
           </div>
