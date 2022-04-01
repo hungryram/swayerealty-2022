@@ -1,5 +1,5 @@
 branding:
-  site_title:
+  site_title: Swaye Realty
   logo:
   dark_logo:
   favicon:
@@ -24,7 +24,7 @@ header:
     background_color: '#222'
     enable_white_text: true
 pages:
-  image:
+  image: /uploads/luxkitchen.jpg
 page_sidebar:
   sidebar:
     - _type: custom-text
@@ -34,11 +34,11 @@ page_sidebar:
       template: side-blog-category
       comment: Nothing to configure, categories will display.
 colors:
-  button_background_color: '#3fb9be'
+  button_background_color: '#000000'
   button_text_color: '#ffffff'
-  links: '#3fb9be'
-  accent: '#3fb9be'
-  idx_title_background_color:
+  links: '#7e7e7e'
+  accent: '#7e7e7e'
+  idx_title_background_color: '#000000'
   idx_title_text_color: '#ffffff'
 search_field:
   disable_search: false
