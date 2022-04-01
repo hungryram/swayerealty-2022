@@ -6,13 +6,25 @@ menu:
     link:
     menu:
       - name: Search Homes
-        link: /
+        link: /listings
         menu:
   - name: Sellers
     link:
     menu:
       - name: Home Valuation
         link: /home-valuation/
+        menu:
+  - name: Resources
+    link:
+    menu:
+      - name: Testimonials
+        link: /testimonials/
+        menu:
+          - name:
+            link:
+            menu:
+      - name: Blog
+        link: /blog
         menu:
   - name: Contact
     link: /contact
