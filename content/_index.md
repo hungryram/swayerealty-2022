@@ -2,9 +2,9 @@
 slideshow_settings:
   slide_animation: push
   enable_autoplay: true
-  enable_ken_burns_effect: false
+  enable_ken_burns_effect: true
   enable_black_text: false
-  enable_idx_search: true
+  enable_idx_search: false
   enable_default_search: false
   display_button: true
 video_background:
