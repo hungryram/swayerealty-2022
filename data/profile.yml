@@ -1,4 +1,4 @@
-company_name:
+company_name: Swaye Realty
 social_media:
   instagram:
   twitter:
@@ -8,18 +8,20 @@ social_media:
   linkedin:
   tiktok:
 contact_information:
-  name:
-  cell:
-  phone:
-  email:
-  license:
-  address:
-  city:
-  state:
-  zip_code:
+  name: Kalvin Tsui
+  cell: (949) 690-6290
+  phone: (213) 616-7233
+  email: Kalvin@SwayeRealty.com
+  license: 'License #01890662'
+  address: '19720 E. Walnut Dr. S #200'
+  city: Walnut
+  state: 'CA '
+  zip_code: '91789'
   google_page_link:
 search_engine_optimization:
-  title_tag:
-  meta_description:
+  title_tag: Swaye Realty - Real Estate Agent - Kalvin Tsui
+  meta_description: >-
+    A Southern California native, Kalvin Tsui is familiar with the real estate
+    market throughout the greater Los Angeles area and Orange County.
   twitter_card:
     twitter_username:
