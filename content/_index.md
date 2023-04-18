@@ -20,7 +20,7 @@ slideshow:
     link_label: Get in Touch
     link: /contact
     image: >-
-      https://res.cloudinary.com/hungryram19/image/upload/v1607015578/kalvin-tsui/swaye-realty/front-house_vkqq2n.jpg
+      /uploads/front-house_vkqq2n.jpg
     body: To be a trusted partner in your real estate endeavors
     enable_white_text: false
 home_sections:
@@ -42,7 +42,7 @@ home_sections:
     button: Contact
     button_link: /contact
     image: >-
-      https://res.cloudinary.com/hungryram19/image/upload/v1606966579/kalvin-tsui/swaye-realty/kalvin-tsui_lzdudj.jpg
+      /uploads/kalvin-tsui_lzdudj.jpg
     image_alt_tag: Kalvin Tsui
     image_width: 400
   - _type: text-and-contact-form
@@ -54,7 +54,7 @@ home_sections:
       entire buying or selling process. So at the end of the day you, our
       client, can make informed decisions that are best for you and yours.
     background_image: >-
-      https://res.cloudinary.com/hungryram19/image/upload/v1607016271/kalvin-tsui/swaye-realty/livingroom1_nwfsnb.jpg
+      /uploads/livingroom1_nwfsnb.jpg
     form:
       heading: Send a message
       body:
